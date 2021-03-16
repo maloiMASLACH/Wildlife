@@ -46,6 +46,15 @@ h1{
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    font-stretch:extra-condensed;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
 ul.firstUL{
     list-style-type: none;
     display:inline-flex;
@@ -107,7 +116,7 @@ a.singa:hover{
     margin-left: 120px;
     margin-top: 109px;
 }
-.survival h1{
+.survival h2{
     font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
@@ -149,9 +158,9 @@ color: #F7F7F7;
     border-color:#E39128;
     background-color: #E39128;
 }
-.survival a:visited{
-    border-color:#8F5613;
-    background-color: #8F5613;
+.survival a.button1:visited{
+    border-color:#8F5613 !important;
+    background-color: #8F5613 !important;
 }
 .thecond_part{
     background-color: #cccccc; 
@@ -230,13 +239,19 @@ top: 218px;
 }
 .scroll1{
     padding-bottom: 145px;
+    
 }
-
+.scroll1 :hover{
+    transform: scale(1.1);
+}
 .scroll2{
     padding-bottom: 158px;
 }
+.scroll2 :hover{
+    transform: scale(1.1);
+}
 .formaTitle{
-margin-top: 236px;
+margin-top: 82px;
 
 }
 .formaTitle h3{
@@ -305,7 +320,7 @@ footer{
 height: 360px;
 background-image: url(assets/Rectanglefoot.svg);
 }
-footer h1{
+footer h2{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
