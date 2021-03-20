@@ -1,0 +1,363 @@
+
+html,body{
+    height: 100%;
+    margin:0;
+    padding: 0;
+  
+}
+
+.first_part{
+    background-color: #02160b;
+    
+}
+.conteiner{
+    margin:0 auto;
+    width: 1440px;
+   
+    
+}
+.conteiner.bg1{
+    height: 779px;
+    background-image: url(assets/lis.svg);
+}
+
+header{
+    padding-top: 13px;
+    color: #F7F7F7;
+    display: flex;
+  
+
+}
+.icon{
+width: 70px;
+height: 60px;
+margin: 6px  15px 0px  120px;
+
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    font-stretch:extra-condensed;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    font-stretch:extra-condensed;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+ul.firstUL{
+    list-style-type: none;
+    display:inline-flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 36.8%;
+    margin-top: 12px;
+}
+.firstUL li{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+
+    margin: 0% 9.5% 0% 10%;
+    white-space: nowrap;
+}
+.firstUL li img{
+    cursor: pointer;
+}
+.sign{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+    width: 120px;
+    height: 46px;
+    padding: 0px 22px 0px 22px;
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+}
+.sign:hover{
+    cursor: default;
+  
+    border-color:rgba(205, 99, 38, 1);
+    background-color: rgba(205, 99, 38, 1);
+   
+}
+
+.sing a:visited{
+    border-color:#8F5613;
+    background-color: #8F5613;
+}
+a{
+    color: #F7F7F7;
+    text-decoration: none;
+}
+a:hover{
+    color:#CD6326;
+}
+a.singa:hover{
+    color: #F7F7F7  ;
+}
+.survival{
+    margin-left: 120px;
+    margin-top: 109px;
+}
+.survival h2{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+letter-spacing: 2px;
+    color: #CD6326;
+    margin-bottom: 50px;
+}
+.survival p{
+   
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+    width: 274px;
+    white-space: normal;
+    color: #F7F7F7;
+
+}
+.button1{
+    margin-top: 31px;
+    background-color: rgba(205, 99, 38, 1);
+    width: 160px;
+height: 60px;
+border-radius: 5px;
+border-color:rgba(205, 99, 38, 1) ;
+border-style: solid;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 27px;
+text-align: center;
+color: #F7F7F7;
+}
+.button1:hover{
+    border-color:#E39128;
+    background-color: #E39128;
+}
+.survival a.button1:visited{
+    border-color:#8F5613 !important;
+    background-color: #8F5613 !important;
+}
+.thecond_part{
+    background-color: #cccccc; 
+}
+.conteiner.bg2{
+    height: 1368px;
+}
+.conteiner.bg2 h2{
+    margin: 0;
+    padding-top: 124px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+
+text-align: center;
+color: #333333;
+}
+.conteiner.bg2 p{
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+   
+    text-align: center;
+    color: #666666;
+}
+ul.thecondUL{
+    padding: 0;
+    margin: 0;
+   margin-left: 91px;
+    margin-top: 122px;
+    list-style-type: none;
+    display: flexbox;
+    align-items:center;
+    justify-content:center;
+   
+}
+.thecondUL li{
+    position: relative;
+  display: inline-flex;
+  align-items:center;
+    justify-content:center;
+  margin: 0px 27px 0px 29px;
+    
+}
+.thecondUL li h4{
+    
+    z-index: 100;
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+   
+
+top: 218px;
+
+    
+}
+.thecondUL li p{
+    z-index: 100;
+    position: absolute;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px  !important;
+    text-align: center;
+    color: #F7F7F7 !important; 
+    top: 278px;
+
+}
+.scroll1{
+    padding-bottom: 145px;
+    
+}
+.scroll1 :hover{
+    transform: scale(1.1);
+}
+.scroll2{
+    padding-bottom: 158px;
+}
+.scroll2 :hover{
+    transform: scale(1.1);
+}
+.formaTitle{
+margin-top: 82px;
+
+}
+.formaTitle h3{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 40px;
+text-align: center;
+color: #333333;
+}
+.forma{
+    display: flex;
+    
+    margin: 0;
+    padding: 0;
+    margin-top: 59px;
+    margin-left: 27%;
+    
+}
+.Email{
+    background-color:#cccccc ;
+    width: 523px;
+    height: 58px;
+    border: #666666 solid 1px;
+    border-right:none ;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 27px;
+align-items: center;
+color: #666666;
+padding-left: 15px;
+
+}
+.Send{
+    position: absolute;
+    height: 62px;
+    width: 122px;
+    background: #CD6326;
+border: 1px solid #CD6326;
+border-radius: 0px 5px 5px 0px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 27px;
+align-items: center;
+text-align: center;
+color: #F7F7F7;
+}
+.Send:hover{
+    border-color:#E39128;
+    background-color: #E39128;
+}
+footer{
+
+}
+.last_part{
+    background-color: #181617
+}
+.conteiner.bg3{
+    display: flex;
+    align-items: center;
+height: 360px;
+background-image: url(assets/Rectanglefoot.svg);
+}
+footer h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+.thirdul{
+display: flex;
+list-style-type: none;
+color: #F7F7F7;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 60px;
+margin-left: 40px;
+white-space: nowrap;
+}
+.thirdul li{
+    margin: 0px 30px 0px 58px;
+}
+.icon2{
+    width: 70px;
+    height: 60px;
+    margin: 0px  14px 0px  121px;
+    
+    }
+.fourthUL{
+    list-style-type: none;
+    display:inline-flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 7.1%;
+    margin-top: 18px;
+}
+.fourthUL li{
+    margin: 0% 12% 0% 4.5%;
+}
+.fourthUL li:hover{
+    transform: scale(1.1);
+}
